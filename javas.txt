@@ -1,0 +1,22 @@
+function itemsetter(key,value) {
+    
+	
+	storage.setItem('key', 'value');
+	
+
+	console.log(storage.getItem('myhome'));
+
+	console.log(storage.length);
+
+	console.log(storage.removeItem('myhome'));
+
+    	storage.clear();
+			
+
+}
+
+itemsetter(sessionStorage);
+itemsetter(localStorage);
+   
+itemsetter('sessionStorage','city','pune');
+
